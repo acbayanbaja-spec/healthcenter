@@ -1,0 +1,11 @@
+# user-uploaded media (keep the folder guard)
+uploads/*
+!uploads/.htaccess
+
+# local env / editor / OS noise
+.env
+*.log
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
